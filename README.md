@@ -2,8 +2,9 @@
 # CAAD 2018 Solutions
 
 These are the solutions for team ysharma1126 for the
-[Competition on Adversarial Attacks and Defenses 2018](http://caad.geekpwn.org/)
-Placed **1st**, **1st**, and **3rd** in non-targeted attack, targeted attack, and defense competitions. See our [Tech Doc](https://arxiv.org/abs/1810.01268) for further detail.
+[Competition on Adversarial Attacks and Defenses 2018](http://caad.geekpwn.org/).
+
+Placed **1st**, **1st**, and **3rd** in non-targeted attack, targeted attack, and defense competitions. See our [Tech Doc](https://arxiv.org/abs/1810.01268) for further detail on the solutions.
 
 ### Citation
 If you use the presented methods in your research, please consider citing
@@ -32,4 +33,4 @@ Placed **1st** in competition. Couple spatial gradient smoothing with optimizing
 ## Defense
 2_MSB placed **3rd** in competition. Add mild bernoulli noise to the input, pass the 2 MSB of the noisy example to an ensemble of adversarially trained classifiers for prediction, and patch the defense to improve its performance against our submitted non-targeted attack. 
 
-Dropout amplifies the random resizing and padding defense with random dropout, using smoothing to fill in the selected dropped out values. This addition improves performance against strong attacks, but also hurts clean accuracy.
+Dropout amplifies the random resizing and padding defense with random dropout, using smoothing to fill in the selected dropped out values. This addition improves performance against strong attacks, but hurts clean accuracy.
