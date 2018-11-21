@@ -1,0 +1,6 @@
+{
+  "type": "defense",
+  "container": "tensorflow/tensorflow:1.9.0",
+  "container_gpu": "tensorflow/tensorflow:1.9.0-gpu",
+  "entry_point": "run_defense.sh"
+}
