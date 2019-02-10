@@ -2,7 +2,7 @@
 # CAAD 2018 Solutions
 
 These are the solutions from team ysharma1126 for the
-[Competition on Adversarial Attacks and Defenses 2018](http://caad.geekpwn.org/).
+[Competition on Adversarial Attacks and Defenses 2018](http://hof.geekpwn.org/caad/en/).
 
 Placed **1st**, **1st**, and **3rd** in non-targeted attack, targeted attack, and defense competitions. See our [Tech Doc](https://arxiv.org/abs/1810.01268) for further detail on the solutions.
 
